@@ -45,6 +45,9 @@ nav {
     top: 0;
     gap: 80px;
     z-index: 1000;
+    align-content: center;
+    align-items: center;
+    
 }
 
 main {
