@@ -423,13 +423,13 @@ input:focus {
     text-align: center;
  }
 
- @media (max-width: 480px) {
+ @media (max-width: 360px) {
     nav {
         flex-direction: column;
     }
 
     body {
-        max-width: 480px;
+        max-width: 360px;
     }
 
     * {
@@ -438,13 +438,13 @@ input:focus {
     }
 
     .burguer-info {
-        max-width: 480px;
+        max-width: 360px;
         justify-content: center;
         align-items: center;
     }
 
     .info {
-        max-width: 450px;
+        max-width: 360px;
     }
 
     .info p {
@@ -466,7 +466,7 @@ input:focus {
     
 
     main {
-        max-width: 480px;
+        max-width: 360px;
         align-items: center;
         align-content: center;
         gap: 100px;
@@ -475,7 +475,7 @@ input:focus {
 
     .pedidos {
         display: flex;
-        max-width: 480px;
+        max-width: 360px;
         padding: 20px;
         align-content: center;
         justify-content: center;
@@ -489,12 +489,12 @@ input:focus {
     .for-about {
         padding: 20px;
         display: flex;
-        max-width: 480px;
+        max-width: 360px;
         gap: 20px;
     }
 
     .about-us{
-        max-width: 480px;
+        max-width: 360px;
         padding: 10px;
         align-items: center;
 
@@ -518,13 +518,13 @@ input:focus {
         align-items: center;
         align-content: center;
         justify-content: center;
-        max-width: 480px;
+        max-width: 360px;
         align-self:center;
     }
 
     .productos-lista {
-        max-width: 400px;
-        max-height: 250px;
+        max-width: 290px;
+        max-height: 220px;
         align-content: center;
         justify-content: center;
         align-items: center;
@@ -547,7 +547,7 @@ input:focus {
    
 
     .caja {
-        max-width: 400px;
+        max-width: 360px;
         flex-direction: column;
         padding: 10px;
         gap: 30px;
@@ -579,15 +579,15 @@ input:focus {
     }
 
     .productos-lista img {
-        max-width: 100%;
+        max-width: 150px;
         max-height: 150px;
         object-fit: cover;
     }
 
     .info-producto {
-        max-width: 230px;
+        max-width: 330px;
         max-height: 200px;
-        flex-direction: row;
+        flex-direction: column;
     }
 
   
@@ -638,6 +638,7 @@ input:focus {
         justify-content: center;
         justify-items: center;
         align-self: center;
+        display: none;
     }
     
     .caja-contacto-responsive {
@@ -648,7 +649,7 @@ input:focus {
     }
    
     footer {
-        max-width: 480px;
+        max-width: 360px;
     }
 
     .footer-div {
