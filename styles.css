@@ -35,11 +35,18 @@ body {
   /*   align-self: flex-end; */
 }
 
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
 
 
 .nav-desktop {
     display: flex;
     justify-content: center;
+    z-index: 1000;
     
    
     align-items: center;
@@ -76,8 +83,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 
@@ -422,9 +428,6 @@ input:focus {
  header{ 
     display: flex;
     justify-content: center;
-    padding: 10px;
-
-  
  }
 
 
@@ -646,6 +649,8 @@ input:focus {
 
     .primera-caja, .segunda-caja {
         max-width: 350px;
+        padding: 20px;
+        height: 365px;
     }
 
     .product-bottom {
@@ -664,27 +669,28 @@ input:focus {
 
     .mapa{
         max-width: 350px;
-        height: 420px;
+        height: 365px;
     }
 
    
 
-    .contacto {
-        max-width: 400px;
+    .caja-contacto-responsive {
+        max-width: 480px;
         align-items: center;
         align-content: center;
         justify-content: center;
         justify-items: center;
         align-self: center;
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
     
-    .caja-contacto-responsive {
+  /*   .caja-contacto-responsive {
         max-width: 480px;
         justify-content: center;
         justify-items: center;
         align-items: center;
-    }
+    } */
    
     footer {
         max-width: 480px;

@@ -40,15 +40,19 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 768px;
   /*   border: 1px solid red; */
 }
 
 .log-in {
-    width: 768px;
+    width: 800px;
+  
     /* border: 1px solid red; */
     display: flex;
+    justify-content: center;
 }
+
+
+
 
 .login{
     width: 768px;
@@ -57,10 +61,14 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
-    padding: 35px;
+    gap: 30px;
+    padding: 15px;
     align-content: center;
+    justify-content: center;
 }
+
+
+
 
 .register{
     width: 768px;
@@ -71,7 +79,8 @@ section {
     align-items: center;
     text-align: center;
     gap: 20px;
-    padding: 35px;
+    padding: 15px;
+    justify-content: center;
 }
 
 input {
