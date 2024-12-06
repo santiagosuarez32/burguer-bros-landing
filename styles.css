@@ -423,13 +423,13 @@ input:focus {
     text-align: center;
  }
 
- @media (max-width: 360px) {
+ @media (max-width: 480px) {
     nav {
         flex-direction: column;
     }
 
     body {
-        max-width: 360px;
+        max-width: 480px;
     }
 
     * {
@@ -438,13 +438,13 @@ input:focus {
     }
 
     .burguer-info {
-        max-width: 360px;
+        max-width: 480px;
         justify-content: center;
         align-items: center;
     }
 
     .info {
-        max-width: 360px;
+        max-width: 480px;
     }
 
     .info p {
@@ -466,7 +466,7 @@ input:focus {
     
 
     main {
-        max-width: 360px;
+        max-width: 480px;
         align-items: center;
         align-content: center;
         gap: 100px;
@@ -475,7 +475,7 @@ input:focus {
 
     .pedidos {
         display: flex;
-        max-width: 360px;
+        max-width: 480px;
         padding: 20px;
         align-content: center;
         justify-content: center;
@@ -489,12 +489,12 @@ input:focus {
     .for-about {
         padding: 20px;
         display: flex;
-        max-width: 360px;
+        max-width: 480px;
         gap: 20px;
     }
 
     .about-us{
-        max-width: 360px;
+        max-width: 480px;
         padding: 10px;
         align-items: center;
 
@@ -518,13 +518,13 @@ input:focus {
         align-items: center;
         align-content: center;
         justify-content: center;
-        max-width: 360px;
+        max-width: 480px;
         align-self:center;
     }
 
     .productos-lista {
-        max-width: 290px;
-        max-height: 220px;
+        max-width: 320px;
+        max-height: 280px;
         align-content: center;
         justify-content: center;
         align-items: center;
@@ -547,7 +547,7 @@ input:focus {
    
 
     .caja {
-        max-width: 360px;
+        max-width: 480px;
         flex-direction: column;
         padding: 10px;
         gap: 30px;
@@ -573,7 +573,7 @@ input:focus {
     }
     
     .segunda-caja {
-        max-width: 350px;
+        max-width: 470px;
         padding: 20px;
         /* flex-direction: column; */
     }
@@ -649,7 +649,7 @@ input:focus {
     }
    
     footer {
-        max-width: 360px;
+        max-width: 480px;
     }
 
     .footer-div {
