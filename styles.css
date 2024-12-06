@@ -585,8 +585,8 @@ input:focus {
     }
 
     .info-producto {
-        max-width: 330px;
-        max-height: 200px;
+        max-width: 340px;
+        max-height: 290px;
         flex-direction: column;
     }
 
