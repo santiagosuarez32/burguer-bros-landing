@@ -461,6 +461,7 @@ input:focus {
         align-content: center;
         justify-content: center;
         max-width: 480px;
+        align-self:center;
     }
 
     .productos-lista {
@@ -473,18 +474,29 @@ input:focus {
         overflow: hidden;
     }
 
+    .burguer-caja-menu {
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        display: flex;
+        max-width: 480px;
+    }
+
   
 
    
 
     .caja {
-        max-width: 480px;
+        max-width: 400px;
         flex-direction: column;
         padding: 10px;
         gap: 30px;
         align-items: center;
         justify-content: center;
         align-self: center;
+        align-content: center;
     }
 
 
