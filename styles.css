@@ -83,7 +83,8 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;   
+    
 }
 
 
@@ -608,7 +609,7 @@ input:focus {
     .contacto {
         max-width: 480px;
         flex-direction: column;
-        padding: 20px;
+        
        /*  flex-wrap: wrap; */
         gap: 5px;
     }
