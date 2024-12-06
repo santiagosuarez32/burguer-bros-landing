@@ -681,7 +681,7 @@ input:focus {
         justify-content: center;
         justify-items: center;
         align-self: center;
-        display: flex;
+        display: none;
         flex-direction: column;
     }
     
