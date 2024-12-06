@@ -369,6 +369,11 @@ input:focus {
     nav {
         flex-direction: column;
     }
+
+    body {
+        max-width: 480px;
+    }
+
     * {
         flex-direction: column;
         box-sizing: border-box;
@@ -425,15 +430,22 @@ input:focus {
     }
 
     .productos-section{
-        flex-direction: column;
         align-items: center;
         align-content: center;
+        justify-content: center;
+        max-width: 480px;
     }
 
     .productos-lista {
+        max-width: 400px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         padding: 10px;
-        max-width: 480px;
+        overflow: hidden;
     }
+
+  
 
    
 
@@ -441,21 +453,89 @@ input:focus {
         max-width: 480px;
         flex-direction: column;
         padding: 10px;
-        gap: 50px;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
     }
 
-    .contacto-caja {
+    .contacto {
         max-width: 480px;
         flex-direction: column;
         padding: 20px;
+       /*  flex-wrap: wrap; */
+        gap: 5px;
     }
     
     .segunda-caja {
-        max-width: 400px;
+        max-width: 350px;
         padding: 20px;
-        flex-direction: column;
+        /* flex-direction: column; */
+    }
+
+    .productos-lista img {
+        max-width: 100%;
+        max-height: 150px;
+        object-fit: cover;
+    }
+
+    .info-producto {
+        max-width: 480px;
+    }
+
+    .primera-caja, .segunda-caja {
+        max-width: 350px;
+    }
+
+
+
+    .primera-caja {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mapa{
+        max-width: 350px;
+        height: 420px;
     }
 
    
+
+    .contacto {
+        max-width: 400px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        align-self: center;
+    }
+    
+    .caja-contacto-responsive {
+        max-width: 480px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+   
+    footer {
+        max-width: 480px;
+    }
+
+    .footer-div {
+        max-width: 350px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .footer-dad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        /* max-width: 200px; */
+    }
    
  }
