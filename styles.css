@@ -366,8 +366,61 @@ input:focus {
  }
 
  @media (max-width: 480px) {
-   
+    nav {
+        flex-direction: column;
+    }
     * {
         flex-direction: column;
     }
+
+    .burguer-info {
+        max-width: 480px;
+        padding: 20px;
+    }
+
+    .burguer-info img {
+        width: 100%;
+    }
+
+    nav {
+        z-index: 0;
+        gap: 10px;
+    }
+
+    main {
+        max-width: 480px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .pedidos {
+        display: flex;
+        max-width: 480px;
+        padding: 20px;
+        align-content: center;
+        justify-content: center;
+    
+    }
+
+    .for-about {
+        padding: 20px;
+        display: flex;
+        max-width: 480px;
+    }
+
+    .about-us{
+        max-width: 480px;
+        padding: 20px;
+        align-items: center;
+
+    }
+
+    .info-card {
+        max-width: 480px;
+        padding: 10px;
+    }
+
+    .menu-burguer
+
+   
  }
