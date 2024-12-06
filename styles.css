@@ -607,7 +607,7 @@ input:focus {
     
 
     .contacto {
-        max-width: 480px;
+        max-width: 470px;
         flex-direction: column;
        /*  flex-wrap: wrap; */
         gap: 5px;
@@ -675,7 +675,7 @@ input:focus {
    
 
     .caja-contacto-responsive {
-        max-width: 480px;
+        max-width: 470px;
         align-items: center;
         align-content: center;
         justify-content: center;
