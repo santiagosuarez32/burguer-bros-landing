@@ -609,7 +609,6 @@ input:focus {
     .contacto {
         max-width: 480px;
         flex-direction: column;
-        
        /*  flex-wrap: wrap; */
         gap: 5px;
     }
@@ -714,8 +713,9 @@ input:focus {
     }
 
 
-  .nav-mobile{
+   .nav-mobile{
         display: flex;
+        max-width: 480px;
     } 
 
 
