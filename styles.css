@@ -35,20 +35,49 @@ body {
   /*   align-self: flex-end; */
 }
 
+
+
 nav {
+    display: flex;
+    justify-content: center;
+    
+   
+    align-items: center;
+
+    align-content: center;
+    
+}
+
+.productos-section {
+    max-width: var(--max-width);
+}
+
+
+
+.caja {
+    max-width: var(--max-width);
+}
+
+.nav-barra {
     display: flex;
     align-items: center;
     background-color: var(--background);
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
     position: sticky;
     top: 0;
-    gap: 80px;
+    gap: 180px;
     z-index: 1000;
     align-content: center;
     align-items: center;
+}
+
+.logo-home {
+    
     
 }
+
+
 
 main {
     display: flex;
@@ -81,6 +110,12 @@ section span {
     -webkit-text-stroke: 1px #0d0d0d;
 }
 
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .esquina {
     display: flex;
     flex-direction: row;
@@ -107,8 +142,12 @@ nav .cart {
     /* background-color: #b7bfda; */
     /* border: 1px solid red; */
     border-radius: 15px;
-
 }
+
+.register {
+    width: 300px;
+}
+
 
 .info {
     display: flex;
@@ -200,8 +239,11 @@ nav .cart {
 .caja {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
     padding: 40px;
+    max-width: var(--max-width);
+    justify-content: center;
+
 }
 
 .productos-lista {
@@ -209,10 +251,11 @@ nav .cart {
   /*   justify-content: center; */
     flex-direction: row;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 20px;
     background-color: var(--rosa);
     border-radius: 10px;
-    width: 450px;
+    width: 480px;
+    height: 300px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
@@ -269,10 +312,24 @@ nav .cart {
 .contacto {
     display: flex;
     flex-direction: row;
-    padding: 80px;
+    /* padding: 80px; */
     color: var(--text);
     list-style: none;
    /*  border: 1px solid red; */
+   max-width: var(--max-width);
+}
+
+.caja-contacto-responsive {
+   
+        display: flex;
+       /*  align-content: center; */
+        flex-direction: row;
+        padding: 80px;
+        color: var(--text);
+        list-style: none;
+       /*  border: 1px solid red; */
+       max-width: var(--max-width);
+    
 }
 
 .primera-caja {
@@ -326,7 +383,8 @@ input:focus {
  .mapa {
     background-color: var(--card);
     align-content: center;
-    width: 500px;
+    width: 660px;
+    
   /*   border: 1px solid red; */
  }
 
