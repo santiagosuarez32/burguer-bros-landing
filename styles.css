@@ -649,7 +649,7 @@ input:focus {
 
     .primera-caja, .segunda-caja {
         max-width: 350px;
-        padding: 20px;
+        padding: 10px;
         height: 365px;
     }
 
