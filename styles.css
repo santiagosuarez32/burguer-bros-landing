@@ -423,9 +423,7 @@ iframe {
 
     /* BODY/HEADER/NAV/MAIN/SECTION */
 
-    nav {
-       
-    }
+  
 
    
     
@@ -441,13 +439,20 @@ iframe {
 
     .nav.desktop-header {
         display: none;
-    
+    }
+
+    header {
+        position: absolute;
+        max-width: 480px;
     }
 
   
 
     main {
         max-width: 480px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
     }
     
     
