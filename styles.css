@@ -732,9 +732,14 @@ input:focus {
        align-items: center;
        padding: 0px 10px;
        background: var(--background);
-       position: fixed;
+    
        width: 100%;
     }
+
+   
+
+
+
 
     .nav-mobile ul {
         list-style: none;
