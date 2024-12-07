@@ -434,7 +434,6 @@ iframe {
         align-items: center;
         justify-content: center;
         align-content: center;
-      
     }
 
     
@@ -457,7 +456,7 @@ iframe {
   
 
     main {
-        max-width: 480px;
+        max-width: 380px;
         display: flex;
         justify-content: center;
         justify-items: center;
@@ -777,4 +776,10 @@ header .img-mobile {
   header {
     display: none;
   }
+
+
+  .contacto {
+    display: none;
+  }
+
  }
