@@ -423,13 +423,14 @@ iframe {
     body {
         max-width: 480px;
         display: flex;
-        
     }
 
-    header {
+    .nav.desktop-header {
+        display: none;
+    }
+
+    .nav-mobile-header {
         display: flex;
-      
-        
         max-width: 480px;
     }
     
@@ -446,14 +447,15 @@ iframe {
     padding: 480px;
    }
 
-   .header {
+   .nav-mobile-header {
+    max-width: 480px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
     flex-direction: row;
-   
+
    }
 
    .footer-div {
@@ -511,7 +513,7 @@ iframe {
     width: 10px;
 }
 
-header .img-mobile {
+.nav-mobile-header .img-mobile {
     display: inline;
     width: 50px;
 }
