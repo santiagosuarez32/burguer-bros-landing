@@ -444,6 +444,7 @@ iframe {
         align-items: center;
         align-content: center;
         justify-items: center;
+        padding: 10px;
     }
 
     .nav.desktop-header {
@@ -453,12 +454,11 @@ iframe {
     header {
         position: absolute;
         max-width: 480px;
-        
         height: 80px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0px 0px;
+        padding: 10px;
     }
 
   
