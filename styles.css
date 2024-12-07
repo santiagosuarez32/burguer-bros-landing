@@ -411,32 +411,45 @@ iframe {
  @media (max-width: 480px) {
     * {
         box-sizing: border-box;
+      
    
     }
+
+  
 
     .nav-desktop {
         display: none;
     }
 
     /* BODY/HEADER/NAV/MAIN/SECTION */
+
+    nav {
+       
+    }
+
+   
     
     body {
         max-width: 480px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+      
     }
 
     .nav.desktop-header {
         display: none;
+    
     }
 
-    .nav-mobile-header {
-        display: flex;
+  
+
+    main {
         max-width: 480px;
     }
     
-   
-   
- 
     
     footer {
         flex-direction: column;
@@ -444,19 +457,10 @@ iframe {
     }
 
    section {
-    padding: 480px;
+    padding: 10px;
    }
 
-   .nav-mobile-header {
-    max-width: 480px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 50px;
-    flex-direction: row;
 
-   }
 
    .footer-div {
     max-width: 350px;
@@ -483,16 +487,23 @@ iframe {
     display: none;
 }
 
+.navbar label {
+    max-width: 480px;
+}
+
 #toggle-menu {
     display: none;
+    max-width: 480px;
+}
+
+.label-caja {
+    max-width: 480px;
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    width: 100%;
-    height: calc(100vh - 80px);
 }
 
 .navbar li {
@@ -507,16 +518,28 @@ iframe {
 .navbar{
     display: flex;
     max-width: 480px;
-   
+    max-height: 80px;
 } 
 .navbar input {
     width: 10px;
 }
 
-.nav-mobile-header .img-mobile {
-    display: inline;
+header .img-mobile {
+    display: flex;
     width: 50px;
 }
+
+.nav-mobile-header {
+    max-width: 480px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    flex-direction: row;
+   }
+
+
 
 
 /* ********************************** */
@@ -593,7 +616,7 @@ iframe {
 .productos-section h2 {
     align-content: center;
     max-width: 480px;
-    padding: 40px;
+    padding: 40px;  
 }
 
 .burguer-caja-menu {
