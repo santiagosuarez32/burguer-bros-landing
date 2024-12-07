@@ -411,8 +411,8 @@ iframe {
  @media (max-width: 480px) {
     * {
         box-sizing: border-box;
-      
-   
+        margin: 0;
+        padding: 0;
     }
 
   
@@ -439,6 +439,11 @@ iframe {
 
     section {
         max-width: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
     }
 
     .nav.desktop-header {
