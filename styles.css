@@ -411,8 +411,8 @@ iframe {
  @media (max-width: 480px) {
     * {
         box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+      
+   
     }
 
   
@@ -437,15 +437,7 @@ iframe {
       
     }
 
-    section {
-        max-width: 480px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-        padding: 10px;
-    }
+    
 
     .nav.desktop-header {
         display: none;
@@ -456,9 +448,10 @@ iframe {
         max-width: 480px;
         height: 80px;
         display: flex;
+        gap: 20px;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
+        padding: 0px 0px;
     }
 
   
@@ -468,7 +461,6 @@ iframe {
         display: flex;
         justify-content: center;
         justify-items: center;
-        align-items: center;
     }
     
     
@@ -482,6 +474,7 @@ iframe {
     max-width: 480px;
    }
 
+  
 
 
    .footer-div {
@@ -541,6 +534,7 @@ iframe {
     display: flex;
     max-width: 480px;
     max-height: 80px;
+    flex-direction: ;
 } 
 .navbar input {
     width: 10px;
@@ -557,8 +551,6 @@ header .img-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 0px;
-    flex-direction: row;
    }
 
 
@@ -597,11 +589,16 @@ header .img-mobile {
    /* SEGUNDA PARTE  */
 
    .for-about {
-    padding: 10px;
     display: flex;
-    max-width: 480px;
-    gap: 20px;
+    max-width: 400px;
+    gap: 30px;
     flex-direction: column;
+    padding: 0px;
+}
+
+.pedidos-about {
+    max-width: 480px;
+    padding: 80px;
 }
 
 .about-us{
@@ -745,4 +742,20 @@ header .img-mobile {
 
    /* ************************** */
 
+
+   .navbar {
+    display: none;
+   }
+
+   .nav.desktop-header {
+    display: none;
+   }
+
+  .nav-mobile-header{
+    display: none;
+  } 
+
+  header {
+    display: none;
+  }
  }
