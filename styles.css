@@ -672,13 +672,20 @@ header .img-mobile {
 }
 
 .productos-lista {
-    max-width: 360px;
-    max-height: 290px;
+    max-width: 335px;
+    max-height: 200px;
     align-content: center;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    overflow: hidden;
+}
+
+.menu-burga {
+    max-width: 480px;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .productos-lista img {
@@ -711,6 +718,7 @@ header .img-mobile {
     gap: 30px;
     max-width: 480px;
     justify-content: center;
+    margin-right: 15px;
 }
 
    /* ***************** */
