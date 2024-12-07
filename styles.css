@@ -540,7 +540,7 @@ iframe {
     display: flex;
     max-width: 480px;
     max-height: 80px;
-    flex-direction: ;
+
 } 
 .navbar input {
     width: 10px;
@@ -603,8 +603,13 @@ header .img-mobile {
 }
 
 .pedidos-about {
+    max-width: 430px;
+    padding: 10px;
+}
+
+.caja-pedidos-box {
+    padding: 30px;
     max-width: 480px;
-    padding: 80px;
 }
 
 .about-us{
