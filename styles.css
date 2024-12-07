@@ -461,6 +461,8 @@ iframe {
         display: flex;
         justify-content: center;
         justify-items: center;
+        align-items: center;
+        align-content: center;
     }
     
     
@@ -472,6 +474,10 @@ iframe {
    section {
     padding: 10px;
     max-width: 480px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
    }
 
   
