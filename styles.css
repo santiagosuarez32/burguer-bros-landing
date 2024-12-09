@@ -21,6 +21,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif ;
 }
+/* NAVBAR */
 
 .navbar ul {
     list-style: none;
@@ -33,7 +34,7 @@
 }
 
 .navbar i {
-    font-size: 36px;
+    font-size: 25px;
     display: none;
 }
 #toggle-menu {
@@ -41,13 +42,11 @@
 }
 
 
-
 .navbar-link {
     text-decoration: none;
     color: var(--text);
     font-weight: 300;
 } 
-
 
 .header {
     height: 80px;
@@ -60,8 +59,7 @@
     position: fixed;
 }
 
-
-
+/* ************************* */
 
 .grid-container {
     display: grid;
@@ -119,7 +117,6 @@
         width: 50px;
     }
 
-
     section img {
         width: 200px;
     }
@@ -130,9 +127,8 @@
 
     body {
         background-color: var(--background);
-        gap: 150px;
+        gap: 110px;
     }
-
 
     /* NAVBAR  MENU HAMBURGUESA */
 
@@ -159,6 +155,22 @@
     
     
     /* ******************************* */
+    
+
+    /* SECCION INFO */
+
+    .section-div-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    
+
+    /* *********** */
 
 
 
