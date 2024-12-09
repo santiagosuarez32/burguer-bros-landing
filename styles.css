@@ -27,20 +27,56 @@
 
 .grid-container {
     display: grid;
-    gap: 20px;
-    grid-template: 
-    "header";
+    grid-template:
+    "header"
+    "info"
+    "pedidos"
+    "menu"
+    "contacto"
+    "footer"
+    ;
+
+    .header {
+        grid-area: header;
+        background-color: var(--background);
+    }
 
     .navbar {
-        grid-area: nav-mobile;
-        background-color: #4724ff;
+        grid-area: navbar;
+        background-color: var(--background);
     }
 
     .header {
         grid-area: header;
-        background-color: #cd050b;
+        background-color: var(--background);
     }
 
-   
+    .section-div-info {
+        grid-area: info;
+        background-color: var(--background);
+    }
+    .section-div-pedidos {
+        grid-area: pedidos;
+        background-color: var(--background);
+    }
+    .section-div-menu {
+        grid-area: menu;
+        background-color: var(--background);
+    }
+    .section-div-contacto {
+        grid-area: contacto;
+        background-color: var(--background);
+    }
+    .footer-div {
+        grid-area: footer;
+        background-color: var(--background);
+    }
 }
 
+body,header,section,footer {
+    max-width: 576px;
+}
+
+section img {
+    width: 200px;
+}
