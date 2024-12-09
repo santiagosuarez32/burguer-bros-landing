@@ -147,9 +147,8 @@
         justify-items: center;
     }
 
-    header {
+    header, .navbar{
         width: 100%;
-
     }
 
 
