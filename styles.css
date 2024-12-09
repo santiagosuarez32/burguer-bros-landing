@@ -243,6 +243,10 @@ section span {
 
 /* SECCION PEDIDOS */ 
 
+.section-div-menu {
+    padding: 0;
+}
+
 .pedidos-box {
   display: flex;
   flex-direction: column;
@@ -265,10 +269,24 @@ section span {
     font-size: 15px;
     gap: 5px;
 }
-
-
-
 /* ***************** */
+
+/* SECCION MENU */
+
+.productos-lista {
+    display: flex;
+    flex-direction: row;
+    /* padding: 30px; */
+    background-color: var(--card);
+    gap: 20px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 
 
 /* ************************************************************* */
