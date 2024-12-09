@@ -76,13 +76,13 @@
     ;
     .header {
         grid-area: header;
-        background-color: var(--background);
+        background-color: var(--text);
     }
     
 
     .navbar {
         grid-area: navbar;
-        background-color: var(--background);
+        background-color: var(--text);
     }
 
     .header {
@@ -92,23 +92,23 @@
 
     .section-div-info {
         grid-area: info;
-        background-color: var(--background);
+        background-color: var(--text);
     }
     .section-div-pedidos {
         grid-area: pedidos;
-        background-color: var(--background);
+        background-color: var(--text);
     }
     .section-div-menu {
         grid-area: menu;
-        background-color: var(--background);
+        background-color: var(--text);
     }
     .section-div-contacto {
         grid-area: contacto;
-        background-color: var(--background);
+        background-color: var(--text);
     }
     .footer-div {
         grid-area: footer;
-        background-color: var(--background);
+        background-color: var(--text);
     }
 }
 
@@ -144,14 +144,14 @@
     /* BODY-HEADER-NAV-SECTION-FOOTER  */
 
     body {
-        background-color: var(--background);
+        background-color: var(--text);
         gap: 180px;
     }
 
     /* NAVBAR  MENU HAMBURGUESA */
 
     .navbar ul {
-        background: var(--background);
+        background: var(--boton);
         width: 100%;
         height: calc(100vh - 80px);
         position: absolute;
