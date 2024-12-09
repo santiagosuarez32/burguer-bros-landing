@@ -57,6 +57,7 @@
     padding: 0px 50px;
     background: white;
     width: 100%;
+    position: fixed;
 }
 
 
@@ -129,6 +130,7 @@
 
     body {
         background-color: var(--background);
+        gap: 150px;
     }
 
 
