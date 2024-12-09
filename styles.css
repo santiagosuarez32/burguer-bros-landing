@@ -222,6 +222,28 @@ main {
 /* ****************************** */
 
 
+/* SECTION INFO */
+
+.section-div-info {
+    gap: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section span {
+    font-weight: 700;
+    color: aliceblue;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #0d0d0d;
+}
+
+
+
+
 
 /* ************************************************************* */
 
