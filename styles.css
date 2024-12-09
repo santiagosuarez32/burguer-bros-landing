@@ -144,10 +144,14 @@
     body {
         background-color: var(--text);
         gap: 180px;
+    }
+
+    .header {
+        justify-content: center;
+        align-items: center;
         justify-items: center;
-        display: flex;
-    
-      
+        align-content: center;
+
     }
 
     header, .navbar{
