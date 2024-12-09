@@ -185,7 +185,9 @@
         align-items: center;
         padding: 30px;
         gap: 10px;
-        
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
     }
 
     .pedidos-box {
@@ -194,8 +196,6 @@
         align-items: center;
         gap: 60px;
         padding: 50px;
-        justify-content: center;
-        align-content: center;
     }
 
      .about {
