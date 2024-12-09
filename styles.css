@@ -237,6 +237,7 @@
         justify-items: center;
         padding: 60px;
         justify-items: center;
+        max-width: 576px;
     }
 
     .burguer-caja-menu {
@@ -288,9 +289,6 @@
      
     }
 
-    .info-producto {
-    
-    }
 
 
 
