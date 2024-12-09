@@ -121,9 +121,6 @@
         width: 200px;
     }
 
-    header {
-        width: 576px;
-    }
 
     /* ********** */
 
@@ -150,6 +147,11 @@
         display: none;
     }
 
+    #toggle-menu:checked + .navbar {
+        display: flex;
+    }
+   
+
     .navbar i {
         display: block;
     }
@@ -170,7 +172,7 @@
         align-items: center;
         padding: 30px;
         gap: 20px;
-        max-width: 576;
+        max-width: 576px;
     }
     
     .info {
