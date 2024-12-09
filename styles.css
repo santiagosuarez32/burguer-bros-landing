@@ -232,6 +232,7 @@
         background-color: var(--card);
         border-radius: 10px;
         padding: 20px;
+        gap: 20px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -249,14 +250,12 @@
     /* SECCION MENU */
 
     .section-div-menu {
-        display: none;
+        display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         justify-items: center;
-        padding: 60px;
         justify-items: center;
-        max-width: 576px;
     }
 
     .burguer-caja-menu {
@@ -304,7 +303,6 @@
 
     .product-bottom p {
         font-weight: 700;
-     
     }
 
 
