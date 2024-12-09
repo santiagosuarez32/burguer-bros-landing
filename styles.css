@@ -85,6 +85,10 @@ section img {
     width: 200px;
 }
 
+section {
+    padding: 50px;
+}
+
 main {
     display: flex;
     flex-direction: column;
