@@ -93,10 +93,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
+  /*   padding: 100px; */
 }
 
 main {
