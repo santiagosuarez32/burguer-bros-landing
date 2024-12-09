@@ -75,6 +75,7 @@
     height: 1.5px;
     width: 20px;
     background-color: black;
+    transition: transform 0.3s;
 }
 
 
