@@ -128,6 +128,7 @@
     body {
         background-color: var(--background);
         gap: 180px;
+        justify-items: center;
     }
 
     /* NAVBAR  MENU HAMBURGUESA */
@@ -165,6 +166,7 @@
         align-items: center;
         padding: 30px;
         gap: 20px;
+        max-width: 576;
     }
     
     .info {
@@ -233,7 +235,8 @@
         align-content: center;
         justify-content: center;
         justify-items: center;
-    
+     
+        justify-items: center;
     }
 
     .burguer-caja-menu {
@@ -244,8 +247,9 @@
         justify-content: center;
         justify-items: center;
         padding: 30px;
-        
+        gap: 30px;
     }
+
     .menu-burga {
         display: flex;
         flex-direction: column;
@@ -260,17 +264,39 @@
         align-items: center;
         align-content: center;
         justify-content: center;
-        justify-items: center;
-        background-color: var(--text);
-        gap: 50px;
-       
+        justify-items: center;   
+        gap: 50px; 
     } 
 
     .productos-lista {
         display: flex;
+        align-items: center;
+        border-radius: 15px;
         gap: 20px;
-        
+        background-color: var(--card);
+        padding: 20px;
     }
+
+    .product-bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .product-bottom p {
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .info-producto {
+        padding: 20px;
+    }
+
+
+
+
+
+
     
 
 
