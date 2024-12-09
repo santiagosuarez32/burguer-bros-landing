@@ -87,6 +87,9 @@ section img {
 
 section {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
@@ -120,7 +123,6 @@ main {
     gap: 5px;
     position: relative;
 }
-
 
 .bars-menu span {
     height: 1.5px;
@@ -193,19 +195,15 @@ main {
     display: none;
 }
 
-
 #toggle-menu {
     display: none;
 }
-
 
 .navbar-link {
     text-decoration: none;
     color: var(--text);
     font-weight: 300;
 } 
-
-
 
 .bars-menu{
     display: flex;
