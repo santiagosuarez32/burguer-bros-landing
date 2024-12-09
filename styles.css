@@ -154,6 +154,7 @@
         width: 100%;
         height: calc(100vh - 80px);
         position: absolute;
+        padding: 0;
         top: 80px;
         left: 0;
         flex-direction: column;
