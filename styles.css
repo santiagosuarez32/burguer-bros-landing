@@ -125,6 +125,10 @@
         width: 200px;
     }
 
+    section {
+        width: 576px;
+    }
+
    
   
   
@@ -256,6 +260,9 @@
         justify-content: center;
         justify-items: center;
         justify-items: center;
+        padding: 40px;
+        align-items: center;
+        max-width: 576px;
     }
 
     .burguer-caja-menu {
@@ -284,6 +291,8 @@
         justify-content: center;
         justify-items: center;   
         gap: 50px; 
+        padding: 20px;
+       /*  padding: 20px; */
     } 
 
     .productos-lista {
@@ -292,12 +301,14 @@
         border-radius: 15px;
         gap: 20px;
         background-color: var(--card);
+   /*      padding: 20px; */
     }
 
     .product-bottom {
         display: flex;
         flex-direction: row;
         gap: 30px;
+
         
     }
 
