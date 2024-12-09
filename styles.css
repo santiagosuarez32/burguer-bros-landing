@@ -22,6 +22,43 @@
     font-family: "Poppins", sans-serif ;
 }
 
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+#toggle-menu {
+    display: none;
+}
+
+
+
+.navbar-link {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 300;
+} 
+
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background: white;
+    width: 100%;
+}
+
 
 
 
@@ -74,11 +111,9 @@
 }
 
 @media (max-width: 576px) {
-    
-    /* body,header,section,footer {
-        max-width: 576px;
-    } */
-    
+
+    /* IMAGENES */
+
     header img {
         width: 50px;
     }
@@ -87,4 +122,43 @@
     section img {
         width: 200px;
     }
+
+    /* ********** */
+
+    /* BODY-HEADER-NAV-SECTION-FOOTER  */
+
+    body {
+        background-color: var(--background);
+    }
+
+
+    /* NAVBAR  MENU HAMBURGUESA */
+
+    .navbar ul {
+        background: var(--background);
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    .navbar i {
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .navbar-list {
+        display: flex;
+    }
+    
+    
+    /* ******************************* */
+
+
+
+
 }
