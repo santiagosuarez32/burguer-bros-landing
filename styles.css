@@ -116,9 +116,7 @@
 
 @media (max-width: 576px) {
 
-    html, body {
-        height: 100%;
-    }
+ 
 
     /* IMAGENES */
 
@@ -184,6 +182,7 @@
 
     #toggle-menu:checked ~ .navbar-list {
         display: flex;
+        overflow: hidden;
     }
     
     
