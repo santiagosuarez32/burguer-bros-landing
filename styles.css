@@ -188,6 +188,8 @@
         justify-content: center;
         justify-items: center;
         align-content: center;
+    
+        /* flex-wrap: 1; */
     }
 
     .pedidos-box {
@@ -196,6 +198,7 @@
         align-items: center;
         gap: 60px;
         padding: 30px;
+        
     }
 
      .about {
@@ -203,6 +206,7 @@
         flex-direction: column;
         align-items: center;
         gap: 40px;
+        
     }
 
     .info-card {
@@ -215,19 +219,21 @@
         justify-content: center;
         align-items: center;
         align-content: center;
+        flex-wrap: 1;
     }
     /* *************** */
 
 
 
     /* SECCION MENU */
-/* 
+
     .section-div-menu {
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         justify-items: center;
+    
     }
 
     .burguer-caja-menu {
@@ -237,6 +243,8 @@
         align-content: center;
         justify-content: center;
         justify-items: center;
+        padding: 30px;
+        
     }
     .menu-burga {
         display: flex;
@@ -253,8 +261,16 @@
         align-content: center;
         justify-content: center;
         justify-items: center;
-    } */
+        background-color: var(--text);
+        gap: 50px;
+       
+    } 
 
+    .productos-lista {
+        display: flex;
+        gap: 20px;
+        
+    }
     
 
 
