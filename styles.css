@@ -37,6 +37,8 @@
     font-size: 25px;
     display: none;
 }
+
+
 #toggle-menu {
     display: none;
 }
@@ -51,11 +53,12 @@
 .header {
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 320px;
     align-items: center;
     padding: 0px 80px;
     background: white;
-    width: 100%;
+    width: 100%; 
     position: fixed;
 }
 
@@ -114,13 +117,16 @@
     /* IMAGENES */
 
     header img {
-        width: 50px;
+        max-width: 50px;
+        height: auto;
     }
 
     section img {
         width: 200px;
     }
 
+   
+  
   
 
  
