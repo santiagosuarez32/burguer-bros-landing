@@ -274,15 +274,13 @@
         border-radius: 15px;
         gap: 20px;
         background-color: var(--card);
-        padding: 10px;
-      
     }
 
     .product-bottom {
         display: flex;
         flex-direction: row;
         gap: 30px;
-        padding: 15px;
+        
     }
 
     .product-bottom p {
