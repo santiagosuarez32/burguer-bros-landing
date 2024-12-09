@@ -73,10 +73,18 @@
     }
 }
 
-body,header,section,footer {
-    max-width: 576px;
-}
+@media (max-width: 576px) {
+    
+    /* body,header,section,footer {
+        max-width: 576px;
+    } */
+    
+    header img {
+        width: 50px;
+    }
 
-section img {
-    width: 200px;
+
+    section img {
+        width: 200px;
+    }
 }
