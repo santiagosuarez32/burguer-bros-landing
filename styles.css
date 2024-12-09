@@ -182,10 +182,12 @@
 
     #toggle-menu:checked ~ .navbar-list {
         display: flex;
-        overflow: hidden;
     }
     
-    
+    #toggle-menu:checked ~ body {
+        display: none;
+    }
+
     /* ******************************* */
     
 
