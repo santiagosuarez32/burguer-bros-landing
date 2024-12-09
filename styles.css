@@ -176,7 +176,7 @@ main {
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 100px;
+    gap: 80px;
 }
 
 .navbar {
