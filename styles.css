@@ -57,6 +57,7 @@
     align-items: center;
     background: white;
     width: 100%; 
+    padding: 0px 80px;
     position: fixed;
 }
 
@@ -72,11 +73,11 @@
     "contacto"
     "footer"
     ;
-
     .header {
         grid-area: header;
         background-color: var(--background);
     }
+    
 
     .navbar {
         grid-area: navbar;
@@ -144,7 +145,6 @@
     body {
         background-color: var(--background);
         gap: 180px;
-        justify-items: center;
     }
 
     /* NAVBAR  MENU HAMBURGUESA */
