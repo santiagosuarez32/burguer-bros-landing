@@ -121,6 +121,10 @@
         width: 200px;
     }
 
+    header {
+        max-width: 576px;
+    }
+
     /* ********** */
 
     /* BODY-HEADER-NAV-SECTION-FOOTER  */
