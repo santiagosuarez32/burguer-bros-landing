@@ -184,7 +184,7 @@
         display: flex;
     }
     
-    #toggle-menu:checked ~ body {
+    #toggle-menu:checked ~ section {
         display: none;
     }
 
