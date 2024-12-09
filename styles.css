@@ -246,7 +246,7 @@
         align-content: center;
         justify-content: center;
         justify-items: center;
-        padding: 30px;
+     
         gap: 30px;
     }
 
@@ -274,7 +274,7 @@
         border-radius: 15px;
         gap: 20px;
         background-color: var(--card);
-        padding: 20px;
+      
     }
 
     .product-bottom {
