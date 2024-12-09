@@ -263,6 +263,7 @@ section span {
     align-items: center;
     padding: 20px;
     font-size: 15px;
+    gap: 5px;
 }
 
 
