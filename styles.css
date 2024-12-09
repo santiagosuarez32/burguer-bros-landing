@@ -53,8 +53,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-/*     padding: 0px 50px;
- */    background: white;
+    padding: 0px 80px;
+    background: white;
     width: 100%;
     position: fixed;
 }
@@ -121,6 +121,7 @@
         width: 200px;
     }
 
+ 
 
     /* ********** */
 
@@ -137,7 +138,7 @@
     .navbar ul {
         background: var(--background);
         width: 100%;
-      /*   height: calc(100vh - 80px); */
+        height: calc(100vh - 80px);
         position: absolute;
         top: 80px;
         left: 0;
@@ -145,6 +146,10 @@
         align-items: center;
         justify-content: center;
         display: none;
+    }
+
+    .navbar-list{
+        padding: 20px;
     }
 
     #toggle-menu:checked + .navbar {
@@ -229,6 +234,8 @@
         align-content: center;
         flex-wrap: 1;
     }
+
+    
     /* *************** */
 
 
@@ -236,7 +243,7 @@
     /* SECCION MENU */
 
     .section-div-menu {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-content: center;
         justify-content: center;
