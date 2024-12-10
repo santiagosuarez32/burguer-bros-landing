@@ -394,7 +394,7 @@ footer {
 .footer-div {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     justify-items: center;
     justify-content: center;
     background-color: var(--boton);
@@ -403,7 +403,7 @@ footer {
 
 .caja-footer {
   
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
