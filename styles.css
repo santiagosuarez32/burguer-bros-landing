@@ -30,7 +30,6 @@ body {
     background-color: var(--background);
     gap: 200px;
     display: flex;
-    flex-direction: column;
 }
 
 .header img {
