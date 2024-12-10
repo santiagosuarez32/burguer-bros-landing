@@ -279,14 +279,15 @@ section span {
 /* SECCION MENU */
 
 
-/* .section-div-menu {
+.section-div-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
     justify-items: center;
-} */
+   
+}
 
 .productos-lista {
     display: flex;
@@ -294,9 +295,8 @@ section span {
     background-color: var(--boton);
     align-items: center;
     justify-content: center;
-    padding: 10px;
     border-radius: 15px;
-    max-width: 100%;
+    padding: 20px 0px 5px 0px;
 }
 
 .productos-lista img {
@@ -306,7 +306,7 @@ section span {
 .info-producto {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
     gap: 30px;
 }
 
@@ -339,8 +339,10 @@ section span {
     flex-direction: column;
     gap: 60px;
     align-items: center;
-    padding: 20px;
-   /*  padding: 20px; */
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px 20px 20px 20px;
 }
 
 .productos-section {
