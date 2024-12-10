@@ -1,65 +1,5 @@
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 100px;
-}
-
-.navbar {
-    display: flex;
-}
-
-.navbar i {
-    font-size: 25px;
-    display: none;
-}
 
 
-#toggle-menu {
-    display: none;
-}
-
-
-.navbar-link {
-    text-decoration: none;
-    color: var(--text);
-    font-weight: 300;
-} 
-
-.header {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 50px;
-    /* gap: 250px; */
-    background: white;
-    padding: 0px 80px;
-    position: fixed;
-    width: 100%;
-}
-
-.bars-menu{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-
-.bars-menu span {
-    height: 1.5px;
-    width: 20px;
-    background-color: black;
-    transition: transform 0.3s;
-}
-
-header img {
-    max-width: 50px;
-  /*   height: auto; */
-}
-
-section img {
-    width: 200px;
-}
 
 .header {
     justify-content: center;
@@ -68,32 +8,181 @@ section img {
     align-content: center;
 }
 
-.bars-menu{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    position: relative;
-}
 
 
-.bars-menu span {
-    height: 1.5px;
-    width: 30px;
-    background-color: black;
-}
+  /* IMAGENES */
 
-#toggle-menu:checked ~ .bars-menu span:nth-child(1) {
-    position: absolute;
-    top: 0;
-    transform: rotate(135deg);
-}
+   
 
-#toggle-menu:checked ~ .bars-menu span:nth-child(2) {
-    opacity: 0;
-}
 
-#toggle-menu:checked ~ .bars-menu span:nth-child(3) {
-    position: absolute;
-    top: 0;
-    transform: rotate(225deg);
-} 
+   
+  
+  
+
+ 
+
+    /* ********** */
+
+    /* BODY-HEADER-NAV-SECTION-FOOTER  */
+
+    body {
+        background-color: var(--background);
+        gap: 180px;
+     
+
+    }
+
+   /*  main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+ 
+
+
+
+    /* NAVBAR  MENU HAMBURGUESA */
+
+   
+    
+
+    /* ******************************* */
+    
+
+    /* SECCION INFO */
+
+    .section-div-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 20px;
+     
+    }
+    
+    .info {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       justify-content: center;
+    }
+
+    /* *********** */
+
+
+    /* SECTION PEDIDOS */
+
+    .section-div-pedidos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 10px;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .pedidos-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        padding: 30px;
+        
+    }
+
+     .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        
+    }
+
+    .info-card {
+        background-color: var(--card);
+        border-radius: 10px;
+        padding: 20px;
+        gap: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        /* flex-wrap: 1; */
+    }
+
+    
+    /* *************** */
+
+
+
+    /* SECCION MENU */
+
+    .section-div-menu {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        justify-items: center;
+        padding: 40px;
+        align-items: center;
+        max-width: 576px;
+    }
+
+    .burguer-caja-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 30px;
+    }
+
+    .menu-burga {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .caja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;   
+        gap: 50px; 
+        padding: 20px;
+       /*  padding: 20px; */
+    } 
+
+    .productos-lista {
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        gap: 20px;
+        background-color: var(--card);
+   /*      padding: 20px; */
+    }
+
+    .product-bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        
+    }
+
+    .product-bottom p {
+        font-weight: 700;
+    }
+
+    /* ***************** */
