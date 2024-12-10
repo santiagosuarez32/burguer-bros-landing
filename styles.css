@@ -284,12 +284,27 @@ section span {
 .productos-lista {
     display: flex;
     flex-direction: row;
-    background-color: var(--boton);
+    background-color: var(--rosa);
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     padding: 5px 0px 5px 0px;
 }
+
+.product-bottom p {
+    color: #191919;
+    font-weight: 700;
+}
+
+.comprar {
+    border: none;
+    color: var(--text);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--card);
+    padding: 10px;
+  
+  }
 
 .productos-lista img {
     width: 150px;
@@ -307,6 +322,7 @@ section span {
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
+    align-items: center;
 }
 
 .product-top {
