@@ -22,59 +22,15 @@
     font-family: "Poppins", sans-serif ;
 }
 
- .grid-container {
-    display: grid;
-    grid-template:
-    "header"
-    "info"
-    "pedidos"
-    "menu"
-    "contacto"
-    "footer"
-    ;
-    .header {
-        grid-area: header;
-        background-color: var(--text);
-    }
-    
 
-    .navbar {
-        grid-area: navbar;
-        background-color: var(--background);
-    } 
-
-    .header {
-        grid-area: header;
-        background-color: var(--background);
-    } *
-
-    .section-div-info {
-        grid-area: info;
-        background-color: var(--background);
-    }
-    .section-div-pedidos {
-        grid-area: pedidos;
-        background-color: var(--background);
-    }
-    .section-div-menu {
-        grid-area: menu;
-        background-color: var(--background);
-    }
-    .section-div-contacto {
-        grid-area: contacto;
-        background-color: var(--background);
-    }
-    .footer-div {
-        grid-area: footer;
-        background-color: var(--background);
-    }
-}
 
 /* ********BODY-HEADER-MAIN-SECTION-FOOTER***************** */
 
 body {
     background-color: var(--background);
-    gap: 150px;
+    gap: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header img {
@@ -91,6 +47,10 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
 
 
 
@@ -115,7 +75,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
-    background: white;
+    background: var(--background);
     padding: 0px 80px; 
     width: 100%; 
     position: fixed;
@@ -234,6 +194,12 @@ main {
 }
 
 section span {
+    font-weight: 700;
+    color: aliceblue;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #0d0d0d;
+}
+footer span {
     font-weight: 700;
     color: aliceblue;
     -webkit-text-fill-color: transparent;
@@ -409,6 +375,47 @@ section span {
 iframe {
     width: 330px;
     height: 300px;
+    border-radius: 15px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    padding: 20px;
+
+}
+
+footer {
+    padding: 150px;
+    margin-bottom: 300px;
+}
+
+/* footer h2 {
+    background-color: var(--card);
+    padding: 50px;
+    border-radius: 15px;
+} */
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.caja-footer {
+    background-color: var(--card);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
     border-radius: 15px;
 }
 
