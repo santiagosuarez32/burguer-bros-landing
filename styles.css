@@ -296,6 +296,8 @@ section span {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    border-radius: 15px;
+    height: 200px;
 }
 
 .productos-lista img {
