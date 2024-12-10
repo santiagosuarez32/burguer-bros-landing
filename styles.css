@@ -28,7 +28,9 @@
 
 body {
     background-color: var(--background);
-
+    gap: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header img {
@@ -391,14 +393,8 @@ iframe {
 }
 
 footer {
-    padding: 150px;
-    margin-bottom: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
+    
+    margin-bottom: 200px;
 }
 
 /* footer h2 {
